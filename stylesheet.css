@@ -1282,22 +1282,25 @@ audio {
 }
 
 .btn-primary {
-        border-color: #466baf;
+        border-color: #18315f;
         padding: 10px;
         text-transform: uppercase;
         font-family: 'Signika', sans-serif;
         font-weight: 700;
         color: #fff;
-        background-color: #466baf;
+		background-color: midnightblue;
+		font-size: 20px;
+		border-radius: 10px;
+		
+		
 }
     .btn-primary:hover,
     .btn-primary:focus,
     .btn-primary:active,
     .btn-primary.active,
     .open .dropdown-toggle.btn-primary {
-        border-color: #fff;
-        color: #fff;
-        background-color: #466baf;
+        background-image: linear-gradient(to bottom, DarkGreen 0%, darkBlue 100% );
+    	font-size: 21px;
     }
 
 
